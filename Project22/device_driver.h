@@ -8,6 +8,12 @@ public:
     ReadFailException(string msg) {}
 };
 
+class WriteFailException :public exception
+{
+public:
+    WriteFailException(string msg) {}
+};
+
 class DeviceDriver
 {
 public:
