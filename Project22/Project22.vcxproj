@@ -134,6 +134,7 @@
     <ClCompile Include="device_driver.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="app.cpp" />
     <ClInclude Include="device_driver.h" />
     <ClInclude Include="flash_memory_device.h" />
   </ItemGroup>

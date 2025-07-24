@@ -1,5 +1,18 @@
 #pragma once
 #include "flash_memory_device.h"
+using namespace std;
+
+class ReadFailException :public exception
+{
+public:
+    ReadFailException(string msg) {}
+};
+
+class WriteFailException :public exception
+{
+public:
+    WriteFailException(string msg) {}
+};
 
 class DeviceDriver
 {
